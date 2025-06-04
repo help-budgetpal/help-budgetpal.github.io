@@ -45,7 +45,7 @@
 
 <body>
     <header class="header">
-      <a href="#">
+      <a href="/">
         <img class="logo" alt="Omnifood logo" src="/img/omnifood-logo.png" />
       </a>
 
@@ -62,31 +62,53 @@
         <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
       </button>
     </header>
+    
+    <section class="section-how" id="how">
+        <div class="container">
+            <span class="subheading">Privacy Policy</span>
+        </div>
 
-    <h1 class="privacy-policy">Privacy Policy</h1>
+        <div class="container grid grid--1-cols grid--center-v">
+            <!-- WHAT DATA WE ACCESS -->
+            <div class="privacy-text-box">
+            <h3 class="heading-tertiary">
+                What Data We Access
+            </h3>
+            <p class="privacy-description">
+                We request your email address and basic profile information solely for user identification and personalization within the app.<br>
+                We request access to create, open, and modify Google Sheets files that you explicitly select using the Google File Picker. This access is limited to only those files you choose.
+                
+            </p>
+            </div>
 
-    <p class="privacy-description">BudgetPal is a desktop application that helps users import bank transaction data from CSV files and automatically
-        populate and categorize this data in a Google Sheets document they choose.</p>
+            <!-- WHAT WE WON'T DO -->
+            <div class="privacy-text-box">
+            <h3 class="heading-tertiary">What We Don't Do</h3>
+            <p class="privacy-description">
+                We do not collect or store your data on any external servers.<br>
+                We do not access or modify any files on your Google Drive unless you explicitly select them via the Google File Picker.<br>
+                We do not share your personal or financial data with any third parties.<br>
+                All data processing happens locally on your device.<br>
+            </p>
+            </div>
 
-    <h2 class="what-data-we-access">What Data We Access</h2>
-    <ul>
-        <li><strong>Google Drive File Access:</strong> We request access to create, open, and modify Google Sheets files that you explicitly select using the Google File Picker. This access is limited to only those files you choose.</li>
-        <li><strong>Basic Profile Info:</strong> We request your email address and basic profile information solely for user identification and personalization within the app.</li>
-    </ul>
+            <!-- SECURITY -->
+            <div class="privacy-text-box">
+            <h3 class="heading-tertiary">Security</h3>
+            <p class="privacy-description">
+                BudgetPal uses Google's secure OAuth 2.0 system for authorization. You are always in control of which files and data you authorize.
+            </p>
+            </div>
 
-    <h2 class="what-we-dont-do">What We Don't Do</h2>
-    <ul>
-        <li>We do not collect or store your data on any external servers.</li>
-        <li>We do not access or modify any files on your Google Drive unless you explicitly select them via the Google File Picker.</li>
-        <li>We do not share your personal or financial data with any third parties.</li>
-        <li>All data processing happens locally on your device.</li>
-    </ul>
-
-    <h2 class="privacy-security">Security</h2>
-    <p>BudgetPal uses Google's secure OAuth 2.0 system for authorization. You are always in control of which files and data you authorize.</p>
-
-    <h2 class="privacy-contact">Contact</h2>
-    <p>If you have any questions or concerns, please reach out to help.budgetpal@gmail.com.</p>
+            <!-- CONTACT -->
+            <div class="privacy-text-box">
+            <h3 class="heading-tertiary">Contact</h3>
+            <p class="privacy-description">
+                If you have any questions or concerns, please reach out to help.budgetpal@gmail.com
+            </p>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
