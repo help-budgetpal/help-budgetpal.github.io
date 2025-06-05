@@ -6,7 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
+  background-color: #d7edff;
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
@@ -56,20 +57,20 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: #1F6AA5;
 }
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-  padding: 1.2rem 2.4rem;
+  padding: 1.2rem 3.8rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #1F6AA5;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: #1F6AA5;
 }
 
 /* MOBILE */
@@ -114,7 +115,8 @@
 /**************************/
 
 .section-hero {
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
+  background-color: #d7edff;
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -154,20 +156,21 @@
   width: 4.8rem;
   border-radius: 50%;
   margin-right: -1.6rem;
-  border: 3px solid #fdf2e9;
+  border: 3px solid #c1e2fb;
 }
 
 .delivered-imgs img:last-child {
   margin: 0;
 }
 
-.delivered-text {
+.users-text {
   font-size: 1.8rem;
   font-weight: 600;
+  padding-top: 2.2rem;
 }
 
-.delivered-text span {
-  color: #cf711f;
+.users-text span {
+  color: #1F6AA5;
   font-weight: 700;
 }
 
@@ -205,7 +208,7 @@
 /**************************/
 
 .section-how {
-  padding: 9.6rem 0;
+  padding: 5.6rem 0;
 }
 
 .step-number {
@@ -228,37 +231,8 @@
   justify-content: center;
 }
 
-.step-img-box::before,
-.step-img-box::after {
-  content: "";
-  display: block;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.step-img-box::before {
-  width: 60%;
-  /* height: 60%; */
-
-  /* 60% of parent's width */
-  padding-bottom: 60%;
-
-  background-color: #fdf2e9;
-  z-index: -2;
-}
-
-.step-img-box::after {
-  width: 45%;
-  padding-bottom: 45%;
-  background-color: #fae5d3;
-  z-index: -1;
-}
-
 .step-img {
-  width: 35%;
+  width: 99%;
   /* z-index: 10; */
 }
 
@@ -353,7 +327,7 @@
 /**************************/
 
 .section-testimonials {
-  background-color: #fdf2e9;
+  background-color: #c1e2fb;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -424,12 +398,12 @@
 
 .pricing-plan--starter {
   justify-self: end;
-  border: 2px solid #fdf2e9;
+  border: 2px solid #c1e2fb;
   padding: 4.6rem;
 }
 
 .pricing-plan--complete {
-  background-color: #fdf2e9;
+  background-color: #c1e2fb;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
@@ -445,7 +419,7 @@
   font-size: 1.4rem;
   font-weight: 700;
   color: #333;
-  background-color: #ffd43b;
+  background-color: #c1e2fb;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
@@ -498,7 +472,7 @@
   color: #e67e22;
   height: 3.2rem;
   width: 3.2rem;
-  background-color: #fdf2e9;
+  background-color: #c1e2fb;
   margin-bottom: 3.2rem;
   padding: 1.6rem;
   border-radius: 50%;
@@ -590,7 +564,7 @@
   font-family: inherit;
   color: inherit;
   border: none;
-  background-color: #fdf2e9;
+  background-color: #c1e2fb;
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -609,7 +583,7 @@
 /**************************/
 
 .footer {
-  padding: 12.8rem 0;
+  padding: 5.8rem 0;
   border-top: 1px solid #eee;
 }
 
@@ -624,7 +598,7 @@
 
 .footer-logo {
   display: block;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.2rem;
 }
 
 .social-links {
@@ -634,8 +608,8 @@
 }
 
 .social-icon {
-  height: 2.4rem;
-  width: 2.4rem;
+  height: 3.4rem;
+  width: 3.4rem;
 }
 
 .copyright {
@@ -648,7 +622,7 @@
 .footer-heading {
   font-size: 1.8rem;
   font-weight: 500;
-  margin-bottom: 4rem;
+  margin-bottom: 2.8rem;
 }
 
 .contacts {
@@ -659,6 +633,10 @@
 
 .address {
   margin-bottom: 2.4rem;
+}
+
+.address-col {
+  grid-column: 5;
 }
 
 .footer-nav {

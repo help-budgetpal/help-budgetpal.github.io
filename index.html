@@ -11,7 +11,7 @@
     <!-- Always include this line of code!!! -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" href="img/favicon.png" />
+    <link rel="icon" href="img/bplogo3.png" />
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -39,19 +39,19 @@
     ></script>
     <script defer src="js/script.js"></script>
 
-    <title>Omnifood &mdash; Always cook!</title>
+    <title>BudgetPal</title>
   </head>
   <body>
     <header class="header">
       <a href="/">
-        <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+        <img class="logo" alt="Omnifood logo" src="img/budgetpal_logo2.png" />
       </a>
 
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="/privacy">Privacy</a></li>
           <li><a class="main-nav-link" href="/terms">Terms</a></li>
-          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try now</a></li>
         </ul>
       </nav>
 
@@ -66,39 +66,28 @@
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
-              A healthy meal delivered to your door, every single day
+              Personal budgeting, <br>
+              finally under control
             </h1>
             <p class="hero-description">
-              The smart 365-days-per-year food subscription that will make you
-              eat healthy again. Tailored to your personal tastes and
-              nutritional needs.
+              The efficient time-saving desktop application that will make you want to stay on top of your finances. Say goodbye to tedious monthly budget reviews — BudgetPal gets it done in minutes.
             </p>
-            <a href="#cta" class="btn btn--full margin-right-sm"
-              >Start eating well</a
-            >
+            <a href="#cta" class="btn btn--full margin-right-sm">Try now</a>
 
-            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
-            <div class="delivered-meals">
-              <div class="delivered-imgs">
-                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
-                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
-                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
-                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
-                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
-                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
-              </div>
-              <p class="delivered-text">
-                <span>250,000+</span> meals delivered last year!
+            <a href="#how" class="btn btn--outline">Learn more</a>
+            <div class="users-review">
+              <p class="users-text">
+                <span>1000+</span> users rely on BudgetPal every month!
               </p>
             </div>
           </div>
           <div class="hero-img-box">
             <picture>
-              <source srcset="img/hero.webp" type="image/webp" />
-              <source srcset="img/hero-min.png" type="image/png" />
+              <source srcset="img/icon_512x512.webp" type="image/webp" />
+              <source srcset="img/icon_512x512.png" type="image/png" />
 
               <img
-                src="img/hero-min.png"
+                src="img/icon_512x512.png"
                 class="hero-img"
                 alt="Woman enjoying food, meals in storage container, and food bowls on a table"
               />
@@ -107,30 +96,11 @@
         </div>
       </section>
 
-      <section class="section-featured">
-        <div class="container">
-          <h2 class="heading-featured-in">As featured in</h2>
-          <div class="logos">
-            <img src="img/logos/techcrunch.png" alt="Techcrunch logo" />
-            <img
-              src="img/logos/business-insider.png"
-              alt="Business Insider logo"
-            />
-            <img
-              src="img/logos/the-new-york-times.png"
-              alt="The New York Times logo"
-            />
-            <img src="img/logos/forbes.png" alt="Forbes logo" />
-            <img src="img/logos/usa-today.png" alt="USA Today logo" />
-          </div>
-        </div>
-      </section>
-
       <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
-            Your daily dose of health in 3 simple steps
+            Expense tracking in 4 simple steps
           </h2>
         </div>
 
@@ -139,29 +109,25 @@
           <div class="step-text-box">
             <p class="step-number">01</p>
             <h3 class="heading-tertiary">
-              Tell us what you like (and what not)
+              Select your spreadsheet
             </h3>
             <p class="step-description">
-              Never again waste time thinking about what to eat! Omnifood AI
-              will create a 100% personalized weekly meal plan just for you. It
-              makes sure you get all the nutrients and vitamins you need, no
-              matter what diet you follow!
+              Using the Google File Picker, select your monthly expense tracking spreadsheet.
             </p>
           </div>
 
           <div class="step-img-box">
             <img
-              src="img/app/app-screen-1.png"
+              src="img/picker-2015.png"
               class="step-img"
-              alt="iPhone app
-            preferences selection screen"
+              alt="File picker API"
             />
           </div>
 
           <!-- STEP 02 -->
           <div class="step-img-box">
             <img
-              src="img/app/app-screen-2.png"
+              src="img/app-browse-csv.PNG"
               class="step-img"
               alt="iPhone app
             meal approving plan screen"
@@ -169,212 +135,45 @@
           </div>
           <div class="step-text-box">
             <p class="step-number">02</p>
-            <h3 class="heading-tertiary">Approve your weekly meal plan</h3>
+            <h3 class="heading-tertiary">Browse for your bank CSV files</h3>
             <p class="step-description">
-              Once per week, approve the meal plan generated for you by Omnifood
-              AI. You can change ingredients, swap entire meals, or even add
-              your own recipes.
+              Select the month, bank name and CSV file that you want to upload. You can select up to 10 files at the same time.
             </p>
           </div>
 
           <!-- STEP 03 -->
           <div class="step-text-box">
             <p class="step-number">03</p>
-            <h3 class="heading-tertiary">Receive meals at convenient time</h3>
+            <h3 class="heading-tertiary">Customize your categories</h3>
             <p class="step-description">
-              Best chefs in town will cook your selected meal every day, and we
-              will deliver it to your door whenever works best for you. You can
-              change delivery schedule and address daily!
+              Take advantage of BudgetPal's auto-categorize feature by defining a keyword and its category. You will only have to do this once, they will be remembered for future months!
             </p>
           </div>
           <div class="step-img-box">
             <img
-              src="img/app/app-screen-3.png"
+              src="img/app-customize-category.PNG"
               class="step-img"
               alt="iPhone app
             delivery screen"
             />
           </div>
-        </div>
-      </section>
 
-      <section class="section-meals" id="meals">
-        <div class="container center-text">
-          <span class="subheading">Meals</span>
-          <h2 class="heading-secondary">
-            Omnifood AI chooses from 5,000+ recipes
-          </h2>
-        </div>
-
-        <div class="container grid grid--3-cols margin-bottom-md">
-          <div class="meal">
+          <!-- STEP 04 -->
+          <div class="step-img-box">
             <img
-              src="img/meals/meal-1.jpg"
-              class="meal-img"
-              alt="Japanese Gyozas"
+              src="img/app-review-upload.PNG"
+              class="step-img"
+              alt="iPhone app
+            delivery screen"
             />
-            <div class="meal-content">
-              <div class="meal-tags">
-                <span class="tag tag--vegetarian">Vegetarian</span>
-              </div>
-              <p class="meal-title">Japanese Gyozas</p>
-              <ul class="meal-attributes">
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                  <span><strong>650</strong> calories</span>
-                </li>
-                <li class="meal-attribute">
-                  <ion-icon
-                    class="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon>
-                  <span>NutriScore &reg; <strong>74</strong></span>
-                </li>
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>4.9</strong> rating (537)</span>
-                </li>
-              </ul>
-            </div>
           </div>
-
-          <div class="meal">
-            <img
-              src="img/meals/meal-2.jpg"
-              class="meal-img"
-              alt="Avocado Salad"
-            />
-            <div class="meal-content">
-              <div class="meal-tags">
-                <span class="tag tag--vegan">Vegan</span>
-                <span class="tag tag--paleo">Paleo</span>
-              </div>
-              <p class="meal-title">Avocado Salad</p>
-              <ul class="meal-attributes">
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                  <span><strong>400</strong> calories</span>
-                </li>
-                <li class="meal-attribute">
-                  <ion-icon
-                    class="meal-icon"
-                    name="restaurant-outline"
-                  ></ion-icon>
-                  <span>NutriScore &reg; <strong>92</strong></span>
-                </li>
-                <li class="meal-attribute">
-                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>4.8</strong> rating (441)</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="diets">
-            <h3 class="heading-tertiary">Works with any diet:</h3>
-            <ul class="list">
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Vegetarian</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Vegan</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Pescatarian</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Gluten-free</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Lactose-free</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Keto</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Paleo</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Low FODMAP</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Kid-friendly</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container all-recipes">
-          <a href="#" class="link">See all recipes &rarr;</a>
-        </div>
-      </section>
-
-      <section class="section-cta" id="cta">
-        <div class="container">
-          <div class="cta">
-            <div class="cta-text-box">
-              <h2 class="heading-secondary">Get your first meal for free!</h2>
-              <p class="cta-text">
-                Healthy, tasty and hassle-free meals are waiting for you. Start
-                eating well today. You can cancel or pause anytime. And the
-                first meal is on us!
-              </p>
-
-              <form class="cta-form" name="sign-up" netlify>
-                <div>
-                  <label for="full-name">Full Name</label>
-                  <input
-                    id="full-name"
-                    type="text"
-                    placeholder="Metta Surendhar"
-                    name="full-name"
-                    required
-                  />
-                </div>
-
-                <div>
-                  <label for="email">Email address</label>
-                  <input
-                    id="email"
-                    type="email"
-                    placeholder="name@example.com"
-                    name="email"
-                    required
-                  />
-                </div>
-
-                <div>
-                  <label for="select-where">Where did you hear from us?</label>
-                  <select id="select-where" name="select-where" required>
-                    <option value="">Please choose one option:</option>
-                    <option value="friends">Friends and family</option>
-                    <option value="youtube">YouTube video</option>
-                    <option value="podcast">Podcast</option>
-                    <option value="ad">Facebook ad</option>
-                    <option value="others">Others</option>
-                  </select>
-                </div>
-
-                <button class="btn btn--form">Sign up now</button>
-
-                <!-- <input type="checkbox" />
-                <input type="number" /> -->
-              </form>
-            </div>
-            <div
-              class="cta-img-box"
-              role="img"
-              aria-label="Woman enjoying food"
-            ></div>
+          <div class="step-text-box">
+            <p class="step-number">04</p>
+            <h3 class="heading-tertiary">Review and Upload</h3>
+            <p class="step-description">
+              Look over all the transactions that have been processed - optionally, you can choose to deselect a transaction or edit its description. 
+              When everything looks good, press upload to see your transactions appear in your monthly budgeting spreadsheet.
+            </p>
           </div>
         </div>
       </section>
@@ -384,16 +183,16 @@
       <div class="container grid grid--footer">
         <div class="logo-col">
           <a href="#" class="footer-logo">
-            <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+            <img class="logo" alt="BudgetPal logo" src="img/budgetpal_logo2.png" />
           </a>
 
           <ul class="social-links">
             <li>
-              <a class="footer-link" href="#"
-                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
-              ></a>
+                <a href="https://www.etsy.com" target="_blank" class="footer-link">
+                    <img src="img/logo-etsy.png" alt="Etsy" class="social-icon" />
+                </a>
             </li>
-            <li>
+            <!-- <li>
               <a class="footer-link" href="#"
                 ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
               ></a>
@@ -402,31 +201,27 @@
               <a class="footer-link" href="#"
                 ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
               ></a>
-            </li>
+            </li> -->
           </ul>
-
-          <p class="copyright">
-            Made with ❤️ by METTA SURENDHAR
-          </p>
         </div>
 
         <div class="address-col">
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
-            <p class="address">
+            <!-- <p class="address">
               No 623, Ambedkar St., 4th Floor, Chennai, TamilNadu
-            </p>
+            </p> -->
             <p>
-              <a class="footer-link" href="tel:415-201-6370">+91 52525 35353</a
-              ><br />
-              <a class="footer-link" href="mailto:hello@omnifood.com"
-                >omnifood@gmail.com</a
+              <!-- <a class="footer-link" href="tel:415-201-6370">+91 52525 35353</a
+              ><br /> -->
+              <a class="footer-link" href="mailto:help.budgetpal@gmail.com"
+                >help.budgetpal@gmail.com</a
               >
             </p>
           </address>
         </div>
 
-        <nav class="nav-col">
+        <!-- <nav class="nav-col">
           <p class="footer-heading">Account</p>
           <ul class="footer-nav">
             <li><a class="footer-link" href="#">Create account</a></li>
@@ -453,7 +248,7 @@
             <li><a class="footer-link" href="#">Help center</a></li>
             <li><a class="footer-link" href="#">Privacy & terms</a></li>
           </ul>
-        </nav>
+        </nav> -->
       </div>
     </footer>
   </body>
